@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- me quede en el punto 7) HTML -->
+    <!-- encabezado -->
+    <header>
+        <nav class="encabezado"><img src="img/Vector.png" alt=""></nav>
+    </header>
+    <!-- termina encabezado -->
+
+    <!-- contenido principal -->
+    <main>
+        <section id="encriptador">
+            <!-- Cuadro de texto de encriptar -->
+            <textarea id="encriptar-texto" placeholder="Ingrese el texto aqui"></textarea>
+            <!-- Termina cuadro de texto para encriptar -->
+
+            <!-- Leyenda -->
+            <div id="leyenda">
+                <h6><spa id="exclamacion">!</spa>Solo letras minúsculas y sin acentos</h6>
+            </div>
+            <!-- Termina leyenda -->
+            
+            <!-- Botones -->
+            <div>
+                <button class="botones" id="boton-encriptar" onclick="encriptar();">Encriptar</button>
+                <button class="botones" id="boton-desencriptar" onclick="desencriptar();">Desencriptar</button>
+            </div>
+            <!-- Termina botones -->
+        </section>
+        <section id="desencriptador">
+            <!-- Cuadro de texto para desencritar -->
+            <img id="munieco" src="img/Muñeco.png" alt="">
+            <p id="titulo">Ningún mensaje fue encontrado</p>
+            <p id="subtitulo">Ingresa el texto que desees encriptar o desencriptar.</p>
+
+            <textarea id="desencriptar-texto"></textarea>
+            <button class="botones" id="boton-copiar" onclick="copiarTexto();">Copiar!</button>
+            <!-- Termina cuadro de texto para desencritar-->
+        </section>
+    </main>
+    <!--Termina contenido principal  -->
+
+    <!-- pie de página -->
+    <footer id="pie">
+        <p class="copyright">&copy Copyright Creado por Gabriela Fernández - 2023</p>
+    </footer>
+    <!-- termina pie de página -->
+
+    <script src="encriptador.js"></script>
+</body>
+</html>
