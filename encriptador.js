@@ -44,6 +44,7 @@ function desaparecerObjetos(){
     subtitulo.style.display="none";
     munieco.style.display="none";
 }
+
 function apareceObjetos() {
     let titulo=document.getElementById("titulo");
     let subtitulo=document.getElementById("subtitulo");
