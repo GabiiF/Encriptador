@@ -30,7 +30,8 @@ function encriptar(){
     }else{
         apareceObjetos();
         textoDesencriptado.style.display="none";//para sacar el texto derecho
-
+        /*escondo boton copiar */
+        botonCopiar.style.display="none";//invisible
     }
 }
 
@@ -97,6 +98,8 @@ function desencriptar(){
     }else{
         apareceObjetos();
         textoDesencriptado.style.display="none";//para sacar el texto derecho
+        /*escondo boton copiar */
+        botonCopiar.style.display="none";//invisible
     }
 }
 function desencriptarMsj() {
