@@ -103,5 +103,8 @@ main{
     background-color: #0A3871;
     color: white;
     text-align: center;
-    position: relative;
+    /*position: relative;*/
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
