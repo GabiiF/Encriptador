@@ -16,7 +16,7 @@ function encriptar(){
     console.log("el tamaño es:",msj.value.length);
     console.log("el mensaje es:",msj.value);
     console.log(msj.value=="");
-    if (msj.value.length > 0) {
+    if (msj.value.length > 0 && msj.value!=" ") {
         /*desaparezco objetos */
         desaparecerObjetos();
 
@@ -82,7 +82,7 @@ function encriptarMsj(){
 /*Empieza Desencriptado */
 function desencriptar(){
     //si es mayor a 0
-    if (msj.value.length > 0) {
+    if (msj.value.length > 0 && msj.value!=" ") {
         /*desaparece objetos */
         desaparecerObjetos();
     
