@@ -56,9 +56,9 @@ Además, he agregado un botón que copia el texto encriptado/desencriptado al po
 ##  :computer: Tecnologías utilizadas
 Para la realización de este proyecto he utilizando:
 <p>
-<img width="90" heigth="30" src="img/html.png">
-<img width="65" heigth="30" src="img/css_icon.png">
-<img width="75" heigth="30" src="img/js_icon.png">
+<img width="90" heigth="30" src="img/html.png" alt="HTML" >
+<img width="65" heigth="30" src="img/css_icon.png" alt="Css">-
+<img width="75" heigth="30" src="img/js_icon.png" alt="Js">
 </p>
 
 ## :loudspeaker: Desarrollo
@@ -92,3 +92,6 @@ El objetivo de este proyecto fue replicar el diseño presentado en Figma. A cont
 -  **Responsive:** Para garantizar una experiencia agradable el proyecto se adapta automáticamente a diferentes dispositivos y tamaños de pantalla, incluyendo computadoras de escritorio, tablets y teléfonos móviles.
 
 :link:**Link de Figma:** [Alura Challenge - Desafío 1 - Figma](https://www.figma.com/design/trP3p5nEh7XUyB3n2bomjP/Alura-Challenge---Desaf%C3%ADo-1---L%C3%B3gica?node-id=2-72&t=lkrkW6N5V1jTo3gj-0)
+
+# Acceso al proyecto
+Puedes acceder al código fuente del proyecto [Aquí](https://gabiif.github.io/Encriptador/)
