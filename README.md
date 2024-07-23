@@ -58,7 +58,7 @@ Para la realización de este proyecto he utilizando:
 <p>
 <img width="90" heigth="30" src="img/html.png">
 <img width="65" heigth="30" src="img/css_icon.png">
-<img width="75" heigth="30" style="margin: 0 0.7em" src="img/js_icon.png">
+<img width="75" heigth="30" src="img/js_icon.png" style="margin: 0 0.7em;">
 </p>
 
 ## :loudspeaker: Desarrollo
