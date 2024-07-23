@@ -40,6 +40,7 @@ Además, he agregado un botón que copia el texto encriptado/desencriptado al po
 
 ### Desarrollo
 
+### Trello
 Para desarrollar el proyecto, trabaje con el sistema ágil de desarrollo utilizando Trello de la siguiente forma:
 
 1. La columna **Listos para iniciar** presenta las tarjetas con elementos que aun no fueron desarrollados.
@@ -47,7 +48,16 @@ Para desarrollar el proyecto, trabaje con el sistema ágil de desarrollo utiliza
 3. En la columna **Pausado** estarán los elementos que has comenzado a trabajar pero necesitas detener por algún motivo.
 4. Por fin, en la columna **Concluido** estarán los elementos ya finalizados.
 
-Link de Trello : [Encriptador de texto - Alura Challenges ONE](https://trello.com/b/WTdfcewC/encriptador-de-texto-alura-challenges-oracle-one)
-Link de Figma: : [Alura Challenge - Desafío 1 - Figma](https://www.figma.com/design/trP3p5nEh7XUyB3n2bomjP/Alura-Challenge---Desaf%C3%ADo-1---L%C3%B3gica?node-id=2-72&t=lkrkW6N5V1jTo3gj-0)
+- Link de Trello : [Encriptador de texto - Alura Challenges ONE](https://trello.com/b/WTdfcewC/encriptador-de-texto-alura-challenges-oracle-one){:target="_blank"}
 
-Encriptador de texto - Alura Challenges ONE
+
+### Figma
+
+El objetivo de este proyecto fue replicar el diseño presentado en Figma utilizando **HTML, CSS y JavaScript**. A continuación, se detallan algunas de las adaptaciones que he realizado:
+
+- **Título:** Cambié la fuente del título a "Roboto" y ajusté el tamaño y el color para que se adapte al estilo general del sitio.
+- **Botones:** Personalicé los botones con bordes redondeados y colores que complementan la paleta general del diseño.
+- **Secciones de encriptado/Desencriptado:** - Adapte las áreas donde los usuarios ingresan o reciben mensajes secretos para que se integren perfectamente con el diseño general del sitio.
+- **Responsive:** Para garantizar una experiencia agradable el proyecto se adapta automáticamente a diferentes dispositivos y tamaños de pantalla, incluyendo computadoras de escritorio, tablets y teléfonos móviles.
+
+- Link de Figma: : [Alura Challenge - Desafío 1 - Figma](https://www.figma.com/design/trP3p5nEh7XUyB3n2bomjP/Alura-Challenge---Desaf%C3%ADo-1---L%C3%B3gica?node-id=2-72&t=lkrkW6N5V1jTo3gj-0){:target="_blank"}
