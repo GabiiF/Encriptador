@@ -1,11 +1,12 @@
 # Challenge ONE | Lógica de Programación | Encriptador de texto
 
+
+Durante cuatro semanas, trabaje en una aplicación que encripta y desencripta textos. La idea es que puedas intercambiar mensajes secretos con otras personas que conozcan el secreto de la encriptación utilizada.
+Para la realización de este proyecto he utilizando **HTML, CSS y JavaScript**
+
 <p align="center">
      <img width="500" heigth="300" src="img/proyecto.png">
 </p>
-
-¡Bienvenido al primer desafío del Encriptador de texto! Durante cuatro semanas, trabaje en una aplicación que encripta y desencripta textos. La idea es que puedas intercambiar mensajes secretos con otras personas que conozcan el secreto de la encriptación utilizada.
-
 
 ## Llaves de Encriptación
 
@@ -53,7 +54,7 @@ Para desarrollar el proyecto, trabaje con el sistema ágil de desarrollo utiliza
 
 ### Figma
 
-El objetivo de este proyecto fue replicar el diseño presentado en Figma utilizando **HTML, CSS y JavaScript**. A continuación, se detallan algunas de las adaptaciones que he realizado:
+El objetivo de este proyecto fue replicar el diseño presentado en Figma. A continuación, se detallan algunas de las adaptaciones que he realizado:
 
 - **Título:** Cambié la fuente del título a "Roboto" y ajusté el tamaño y el color para que se adapte al estilo general del sitio.
 - **Botones:** Personalicé los botones con bordes redondeados y colores que complementan la paleta general del diseño.
