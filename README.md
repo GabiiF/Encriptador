@@ -55,10 +55,11 @@ Además, he agregado un botón que copia el texto encriptado/desencriptado al po
 
 ##  :computer: Tecnologías utilizadas
 Para la realización de este proyecto he utilizando:
+<p>
 <img width="50" heigth="30" src="img/html.png">
 <img width="50" heigth="30" src="img/css_icon.png">
 <img width="50" heigth="30" src="img/js_icon.png">
-
+</p>
 
 ## :loudspeaker: Desarrollo
 
