@@ -2,7 +2,6 @@
 
 
 Durante cuatro semanas, trabaje en una aplicación que encripta y desencripta textos. La idea es que puedas intercambiar mensajes secretos con otras personas que conozcan el secreto de la encriptación utilizada.
-Para la realización de este proyecto he utilizando **HTML, CSS y JavaScript.**
 
 <p align="center">
      <img width="500" heigth="300" src="img/proyecto.png">
@@ -93,5 +92,5 @@ El objetivo de este proyecto fue replicar el diseño presentado en Figma. A cont
 
 :link:**Link de Figma:** [Alura Challenge - Desafío 1 - Figma](https://www.figma.com/design/trP3p5nEh7XUyB3n2bomjP/Alura-Challenge---Desaf%C3%ADo-1---L%C3%B3gica?node-id=2-72&t=lkrkW6N5V1jTo3gj-0)
 
-# Acceso al proyecto
-Puedes acceder al código fuente del proyecto [Aquí](https://gabiif.github.io/Encriptador/)
+## :pushpin: Acceso al proyecto
+Puedes acceder al código fuente del proyecto [aquí](https://gabiif.github.io/Encriptador/)
