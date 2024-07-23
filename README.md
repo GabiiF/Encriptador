@@ -1,4 +1,4 @@
-#Challenge ONE | Lógica de Programación | Encriptador de texto
+# Challenge ONE | Lógica de Programación | Encriptador de texto
 
 <p align="center">
      <img width="500" heigth="300" src="img/proyecto.png">
