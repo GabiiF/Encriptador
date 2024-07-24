@@ -10,13 +10,11 @@ La letra "u" es convertida para "ufat"*/
 let msj= document.getElementById("encriptar-texto");
 let botonCopiar=document.getElementById("boton-copiar");
 let textoDesencriptado = document.getElementById("desencriptar-texto");
+let msjError="";
 
 /*Empieza encriptado */
 function encriptar(){
-    console.log("el tamaño es:",msj.value.length);
-    console.log("el mensaje es:",msj.value);
-    console.log(msj.value=="");
-    if (msj.value.length > 0 && msj.value!=" ") {
+    if (msj.value.length > 0 && msj.value!=" " && !caractEsp() && !mayusculas()) {
         /*desaparezco objetos */
         desaparecerObjetos();
 
@@ -30,8 +28,12 @@ function encriptar(){
     }else{
         apareceObjetos();
         textoDesencriptado.style.display="none";//para sacar el texto derecho
+
+        
         /*escondo boton copiar */
         botonCopiar.style.display="none";//invisible
+        msj.value = "";//borro msj de izq
+        
     }
 }
 
@@ -83,7 +85,7 @@ function encriptarMsj(){
 /*Empieza Desencriptado */
 function desencriptar(){
     //si es mayor a 0
-    if (msj.value.length > 0 && msj.value!=" ") {
+    if (msj.value.length > 0 && msj.value!=" " && !caractEsp() && !mayusculas()) {
         /*desaparece objetos */
         desaparecerObjetos();
     
@@ -100,6 +102,7 @@ function desencriptar(){
         textoDesencriptado.style.display="none";//para sacar el texto derecho
         /*escondo boton copiar */
         botonCopiar.style.display="none";//invisible
+        msj.value = "";//borro msj de izq
     }
 }
 function desencriptarMsj() {
@@ -146,4 +149,24 @@ function copiarTexto() {
     copyText.select();
     document.execCommand("copy");
 }
-/*Termina copiar */
+
+/*Empieza caractEsp */
+function caractEsp() {
+    msjError = 'El mensaje no puede tener acento ni caracteres especiales tales como: $%&@|<>#*?';
+    let regex= /[$%&@|<>#*?áéíóú]/;
+    let caractEspec = regex.test(msj.value);
+    if(caractEspec){
+        alert(msjError);
+    }
+    return caractEspec;
+}
+/*Empieza mayus */
+function mayusculas() {
+    msjError = 'Solo se aceptan letras en minúsculas';
+    let regex= /[A-Z]/;
+    let mayus = regex.test(msj.value);
+    if(mayus){
+        alert(msjError);
+    }
+    return mayus;
+}
