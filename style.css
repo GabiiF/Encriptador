@@ -104,6 +104,17 @@ main{
 #munieco{
     width: 70%;
 }
+#titulo{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28.8px;
+    color: #343A40;
+    margin-bottom: 16px;
+    text-align: center;
+}
+#subtitulo{
+    text-align: center;
+}
 #pie{
     font-family: 'Inter', sans-serif;
     margin-top: 1em;
@@ -140,13 +151,6 @@ main{
     #munieco {
         display: none;
     }
-    #titulo{
-        font-weight: 700;
-        font-size: 24px;
-        line-height: 28.8px;
-        color: #343A40;
-        margin-bottom: 16px;
-    }
     #subtitulo{
         font-weight: 400;
         font-size: 16px;
@@ -160,8 +164,33 @@ main{
 }
 
 
-/*Mobile*/
-@media (max-width: 627px){/*(max-width: 425px)*/
-
-    
+/*Mobile 425px-767px*/
+@media (min-width: 320px) and (max-width: 767px){/*(max-width: 425px)*/
+    main{
+        margin: 0.5em;
+    }
+    #encriptador #encriptar-texto {
+        width: 98%;
+        margin: 0 10px 1.5em 0;
+    }
+    #encriptar-texto, #desencriptar-texto {
+        padding: 0;
+    }
+    #desencriptar-texto {
+        width: 100%;
+    }
+    #botones{
+        flex-direction: column;
+    }
+    .boton{
+        width: auto;
+        font-size: 16px;
+        margin-top: 0;
+    }
+    #boton-encriptar{
+        margin-top: 20px;
+    }
+    #boton-copiar {
+        width: 98%;
+    }
 }
