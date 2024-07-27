@@ -10,6 +10,9 @@ La letra "u" es convertida para "ufat"*/
 let msj= document.getElementById("encriptar-texto");
 let botonCopiar=document.getElementById("boton-copiar");
 let textoDesencriptado = document.getElementById("desencriptar-texto");
+let titulo=document.getElementById("titulo");
+let subtitulo=document.getElementById("subtitulo");
+let munieco=document.getElementById("munieco");
 let msjError="";
 
 /*Empieza encriptado */
@@ -25,10 +28,10 @@ function encriptar(){
 
         /*muestro boton copiar */
         botonCopiar.style.display="block";//visible
-    }else{
+    }else{  
         apareceObjetos();
         textoDesencriptado.style.display="none";//para sacar el texto derecho
-
+        
         
         /*escondo boton copiar */
         botonCopiar.style.display="none";//invisible
@@ -39,23 +42,19 @@ function encriptar(){
 
 /*Desaparecer objetos cuando toco el boton */
 function desaparecerObjetos(){
-    let titulo=document.getElementById("titulo");
-    let subtitulo=document.getElementById("subtitulo");
-    let munieco=document.getElementById("munieco");
-
     titulo.style.display="none";
     subtitulo.style.display="none";
     munieco.style.display="none";
 }
 
 function apareceObjetos() {
-    let titulo=document.getElementById("titulo");
-    let subtitulo=document.getElementById("subtitulo");
-    let munieco=document.getElementById("munieco");
-
     titulo.style.display="block";
     subtitulo.style.display="block";
     munieco.style.display="block";
+    /*if(maxWith==="1023px"){
+
+        munieco.style.display="block";
+    }*/
 }
 function encriptarMsj(){
     /* encriptarlo */
