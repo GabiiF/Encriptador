@@ -36,7 +36,6 @@ function encriptar(){
         /*escondo boton copiar */
         botonCopiar.style.display="none";//invisible
         msj.value = "";//borro msj de izq
-        
     }
 }
 
@@ -51,10 +50,7 @@ function apareceObjetos() {
     titulo.style.display="block";
     subtitulo.style.display="block";
     munieco.style.display="block";
-    /*if(maxWith==="1023px"){
 
-        munieco.style.display="block";
-    }*/
 }
 function encriptarMsj(){
     /* encriptarlo */
