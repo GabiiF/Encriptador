@@ -78,7 +78,7 @@ main{
 
 /*Derecha*/
 #boton-desencriptar{
-    background-color: #e2e8f0;
+    background-color: #F3F5FC; /*#e2e8f0;*/
     border: 1px solid #0A3871;
     color: #0A3871;
 }
