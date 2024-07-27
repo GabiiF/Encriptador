@@ -128,6 +128,9 @@ main{
         width: 96%;
         margin: 0;
     }
+    #botones{
+        justify-content: space-around;
+    }
     #desencriptador {
         width: 96%;
         border-radius: 32px;
